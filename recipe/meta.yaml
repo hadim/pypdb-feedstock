@@ -10,7 +10,7 @@ source:
   md5: 5061452bb58bc765a5037317402736ec
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -23,7 +23,7 @@ requirements:
     - numpy
     - xmltodict
     - beautifulsoup4
-    - matplotlib
+    - matplotlib-base
     - urllib3
     - jsonschema
 
