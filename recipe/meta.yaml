@@ -24,6 +24,8 @@ requirements:
   run:
     - python
     - requests
+    - xmltodict
+    - beautifulsoup4
 
 test:
   imports:
