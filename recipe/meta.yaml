@@ -1,6 +1,6 @@
 {% set name = "pypdb" %}
-{% set version = "1.300" %}
-{% set sha256 = "3eaa22b81a795d715494b178a752a966fed0fb93d6c940254ba4e1797294fdac" %}
+{% set version = "1.310" %}
+{% set sha256 = "aea346e6a10f3400fe56aa89381afcf9dfd533dfc5802d39072e71555c36e16d" %}
 
 
 package:
@@ -26,7 +26,6 @@ requirements:
     - numpy
     - xmltodict
     - beautifulsoup4
-    - matplotlib-base
     - requests
 
 test:
